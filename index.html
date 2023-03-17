@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+        * {
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .hi{
+            font-size: 40px;
+            letter-spacing: 0.2cap;
+            font-weight: bolder;
+            color:orange;
+        }
+        .name{
+            font-size: 40px;
+            letter-spacing: 0.2cap;
+            font-weight: bolder;
+            color: rgb(27, 85, 193);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 25px;">
+            <div class="container-fluid">
+                <a class="navbar-brand text-danger" href="#">P<b class="text-primary">ortfolio</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0"></div>
+                    <div class="d-flex navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                        </form>
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <main class="w-100">
+        <div class="fluid-container w-100 vh-110">
+            <div class="card shadow p-4 bgset h-100 w-100" style="max-width: 100%; max-height: 100%;">
+                <div class="row g-0 flex-row-reverse">
+                    <div class="col-md-4">
+                        <img src="images/ayush.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                    </div>
+                    <div class="col-md-7 d-flex justify-content-center align-items-center">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="hi">
+                                    Hi,
+                                </div>    
+                            </div>
+                            <div class="card-title">
+                                <div class="name">
+                                    Ayush Sharma
+                                </div>    
+                            </div>
+                            <p class="card-text">
+                                <!-- <span id="element"></span> -->
+                            </p>
+                            <p class="card-text">
+                                <h1 class="text-muted w-100" id="element"></h1>
+                            </p>
+                            <div class="btn-group shadow" role="group" aria-label="Basic mixed styles example">
+                                <button type="button shadow" class="btn bg-light">
+                                    <img src="images/download.png" alt="Image Description" class="img-fluid" style="height: 40px;width: 40px;">
+                                    <span class="fs-5">Resume</span>
+                                </button>
+                                <button type="button shadow" class="btn bg-white text-dark">
+                                    <img src="images/github.png" alt="Image Description" class="img-fluid" style="height: 40px;width: 40px;">
+                                    <span class="fs-5">Github</span>
+                                </button>
+                                <button type="button shadow" class="btn text-dark"
+                                    style="background-color: aliceblue;">
+                                    <img src="images/linkedin.png" alt="Image Description" class="img-fluid"
+                                        style="height: 40px;width: 40px;">
+                                        <span class="fs-5">linkedIn</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['I am Web Developer.'],
+            typeSpeed: 100,
+        });
+    </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
